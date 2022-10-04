@@ -20,3 +20,8 @@ main {
 main > * {
     border: red solid;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;;
+}
