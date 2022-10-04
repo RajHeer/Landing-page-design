@@ -8,4 +8,15 @@
 
 body {
     font-family:'Roboto', sans-serif;
+    width: 100vw;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > * {
+    border: red solid;
 }
