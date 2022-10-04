@@ -17,11 +17,19 @@ main {
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-    border: green solid;
 }
 
 main > * {
     border: red solid;
+}
+
+nav {
+    padding: 10px;
+}
+
+article {
+    padding: 5%;
+    border: green solid;
 }
 
 figure {
