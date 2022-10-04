@@ -24,12 +24,25 @@ main > * {
     border: red solid;
 }
 
-.flex {
+article:nth-of-type(1) {
+    justify-content: space-evenly;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-even {
     display: flex;
     justify-content: space-evenly;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
 .centre {
     text-align: center;
-    border: blue solid;
 }
