@@ -20,7 +20,6 @@ main {
 }
 
 main > * {
-    border: red solid;
 }
 
 nav {
@@ -29,7 +28,6 @@ nav {
 
 article {
     padding: 5%;
-    border: green solid;
 }
 
 figure {
