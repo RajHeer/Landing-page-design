@@ -19,9 +19,6 @@ main {
     margin: 0 auto;
 }
 
-main > * {
-}
-
 nav {
     padding: 10px;
 }
@@ -45,6 +42,52 @@ article:nth-of-type(1) {
     justify-content: space-evenly;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p, a, h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+figcaption {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+blockquote::before { 
+    content: open-quote;
+    font-size: 1.5em; 
+    font-weight: 900;
+} 
+
+blockquote::after { 
+    content: close-quote;
+    font-size: 1.5em; 
+    font-weight: 900;
+} 
+
+span {
+    font-size: 24px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
 .flex-around {
     display: flex;
     justify-content: space-around;
@@ -62,4 +105,8 @@ article:nth-of-type(1) {
 
 .centre {
     text-align: center;
+}
+
+.align-centre {
+    align-items: center;
 }
