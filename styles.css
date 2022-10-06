@@ -24,12 +24,18 @@ header, footer, a {
     color: #F2EFE9;
 }
 
+header {
+    margin-bottom: 40px;
+}
+
 nav {
     padding: 10px;
+    margin-bottom: 30px;
 }
 
 article {
     padding: 5%;
+    margin-bottom: 30px;
 }
 
 figure {
@@ -74,6 +80,7 @@ blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    padding: 30px 5px;
 }
 
 blockquote::before { 
@@ -100,6 +107,10 @@ button {
     color: #F2EFE9;
     padding: 5px 15px;
     border: 1px solid #DE6449;
+}
+
+footer {
+    height: 50px;
 }
 
 button:last-of-type {
@@ -140,4 +151,8 @@ button:last-of-type {
 .call {
     background-color: #DE6449;
     color: #F2EFE9;
+    width: 70%;
+    margin: 30px auto;
+    height: 90px;
+    border-radius: 10px;
 }
