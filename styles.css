@@ -15,7 +15,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -187,4 +187,8 @@ button:last-of-type {
     margin: 30px auto;
     height: 90px;
     border-radius: 10px;
+}
+
+.blur {
+    box-shadow: 0 0 6px 6px hsl(315, 7%, 80%);
 }
