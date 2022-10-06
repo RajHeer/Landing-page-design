@@ -48,6 +48,7 @@ figure > img {
     width: 100%;
     border-radius: 5%;
     border: solid 3px #DE6449;
+    margin-bottom: 10px;
 
 }
 
@@ -59,6 +60,9 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: hsl(315, 7%, 80%);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    margin-top: -5px;
 }
 
 h2 {
@@ -70,6 +74,10 @@ h2 {
 p, a, h4 {
     font-size: 18px;
     font-weight: 400;
+}
+
+p {
+    margin-bottom: 25px;
 }
 
 figcaption {
