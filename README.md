@@ -1,6 +1,6 @@
-# Landing page mock-up
+# Landing page
 
-Own design landing page, based on a design-brief
+Landing page mock-up based on a design-brief
 
 ## About
 
