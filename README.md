@@ -6,7 +6,7 @@ Landing page mock-up based on a design-brief
 
 Completed as part of The Odin Project cirriculum. Original instruction are [here](https://www.theodinproject.com/lessons/foundations-landing-page).
 
-To view click [here](https://rajheer.github.io/landing-page_design/).
+To view click [here](https://rajheer.github.io/Landing-page-design/).
 
 ## Description
 
